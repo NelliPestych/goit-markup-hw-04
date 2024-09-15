@@ -408,6 +408,7 @@ footer .container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 footer .container .logo {
@@ -488,6 +489,8 @@ footer a:hover {
 
 .socials-text {
     margin-bottom: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .socials-list {
@@ -495,4 +498,12 @@ footer a:hover {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
+}
+
+footer .socials-list {
+    gap: 16px;
+}
+
+footer .socials-list-item-link:hover, .socials-list-item-link:focus {
+    background-color: #31d0aa;
 }
