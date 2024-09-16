@@ -13,6 +13,21 @@ body {
     line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0; margin: 0;
+}
+
 img {
     display: block;
 }
@@ -62,10 +77,6 @@ nav a {
     position: absolute;
     bottom: -1px;
     left: 0;
-}
-
-ul, ol {
-    list-style-type: none;
 }
 
 header {
@@ -338,7 +349,6 @@ button:hover, button:focus {
 }
 
 .portfolio .second-section-title {
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -392,6 +402,7 @@ button:hover, button:focus {
 .portfolio-item-text {
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: left;
 }
 
 /* Footer */
@@ -436,7 +447,7 @@ footer a:hover {
 .footer-text {
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    width: 264px;
+    max-width: 264px;
 }
 
 .footer-first-block {
